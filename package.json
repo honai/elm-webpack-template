@@ -1,0 +1,17 @@
+{
+  "name": "elm-webpack-template",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "honai",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack --mode production"
+  },
+  "dependencies": {
+    "elm-webpack-loader": "^6.0.0",
+    "file-loader": "^4.2.0",
+    "webpack": "^4.41.0",
+    "webpack-cli": "^3.3.9",
+    "webpack-dev-server": "^3.8.2"
+  }
+}
